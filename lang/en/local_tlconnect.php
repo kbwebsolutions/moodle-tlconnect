@@ -40,4 +40,7 @@ $string['apitoken'] = 'API token';
 $string['apitoken_desc'] = 'The API token which is passed as a parameter in each request as "Token"';
 $string['accesstokenurl'] = 'Access token';
 $string['accesstokenurl_desc'] = 'Access token';
+$string['endpointurl'] = 'Endpoint prefix';
+$string['endpointurl_desc'] = 'First part of endpoint url';
+
 

@@ -66,6 +66,14 @@ if ($hassiteconfig) {
         );
         $settings->add(
             new admin_setting_configtext(
+                'local_tlconnect/endpointurl',
+                get_string('endpointurl', 'local_tlconnect'),
+                get_string('endpointurl_desc', 'local_tlconnect'),
+                ''
+            )
+        );
+        $settings->add(
+            new admin_setting_configtext(
                 'local_tlconnect/apiusername',
                 get_string('apiusername', 'local_tlconnect'),
                 get_string('apiusername_desc', 'local_tlconnect'),

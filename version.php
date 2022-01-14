@@ -20,7 +20,7 @@ if (!$plugin) {
     $plugin = new stdClass();
 }
 
-$plugin->version =  2021122200;
+$plugin->version =  2022011402;
 $plugin->requires = 2019052001;
 $plugin->component = 'local_tlconnect';
 $plugin->maturity = MATURITY_ALPHA;
